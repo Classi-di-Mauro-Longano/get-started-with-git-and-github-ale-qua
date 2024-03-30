@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lezioni MAT</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lezioni Alta Formazione</h1>
+    </header>
+    <section class="todo-insert">
+        <form id="formInvio">
+            <div class="inserimento">
+                <h2 class="tito">Titolo:</h3>
+                <input type="text" id="todo-titolo" required>
+                <h2 class="descr">Descrizione:</h3>
+                <input type="text" id="todo-desc">
+                <input type="date" name="dataInput" id="InputDate" required>
+                <input type="checkbox" name="checkboxInput" id="checkboxInput">
+                <input id="todo-button" type="submit" value="invio">
+            </div>
+        </form>
+    </section>
+    <div id="todo-container">
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
